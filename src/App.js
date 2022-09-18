@@ -5,6 +5,7 @@ function App() {
   return (
     <div className='App'>
       <h1><b><u>Welcome to React App Development</u></b></h1>
+      <h2><b><u>Class-2</u></b></h2>
       <div className='App-header'>
         <fieldset className='App'>
           <form>
