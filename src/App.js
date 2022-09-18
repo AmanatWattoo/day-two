@@ -11,6 +11,7 @@ function App() {
             <input type="text" placeholder='Enter your name here' maxLength={12}></input>
             <input type="Password" placeholder='Enter your Password here' maxLength={12}></input>
             <input type="Password" placeholder='Type again password' maxLength={12}></input>
+            <input type="submit" value="submit">submit</input>
           </form>
         </fieldset>
 
