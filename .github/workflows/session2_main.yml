@@ -37,7 +37,7 @@ jobs:
             
       - name: Creating build
         run: yarn build
-      - name: deploying on surge
+      - name: installing surge
         run: npm install -g surge
       - name: Deploying on surge
         run: surge ./build http://clever_motion2.surge.sh/ --token ${{secrets.WATTOO_TOKEN}}
